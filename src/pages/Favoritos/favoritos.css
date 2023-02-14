@@ -41,3 +41,17 @@
     color: orange;
     margin-right: 14px;
 }
+
+.meus-filmes button:hover{
+    background-color: darkorange;
+}
+
+.meus-filmes button{
+    color: white;
+    border: none;
+    background-color: orange;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
