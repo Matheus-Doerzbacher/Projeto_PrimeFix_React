@@ -55,3 +55,23 @@
     cursor: pointer;
 }
 
+@media only screen and (max-width: 730px) {
+    .meus-filmes ul{
+        width: 590px;
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .meus-filmes ul li{
+        display: contents;
+        line-height: 200%;
+        padding-top: 50px;
+    }
+    
+    .meus-filmes ul{
+        text-align: center;
+        width: 100%;
+    }
+}
