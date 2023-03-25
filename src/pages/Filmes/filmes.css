@@ -19,6 +19,7 @@
     max-width: 100%;
     max-height: 400px;
     object-fit: cover;
+    object-position: top;
 }
 
 .filme-info h3{
@@ -33,6 +34,7 @@
     margin-right: 12px;
     margin-top: 14px;
     margin-left: 0;
+    margin-bottom: 20px;
     font-size: 20px;
     border: 0;
     outline: none;
