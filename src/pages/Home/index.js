@@ -43,13 +43,15 @@ function Home(){
             <div className="lista-filmes">
                 {filmes.map((filme) => {
                     return(
-                        <article key={filme.id}>
-                            <div className="container-filmes">
-                                <strong>{filme.title}</strong>
-                                <img src={`https://image.tmdb.org/t/p/original/${filme.poster_path}`} alt={filme.title} />
-                                <Link to={`/filme/${filme.id}`}>Acessar</Link>
-                            </div>
-                        </article>
+                        <div className="teste">
+                            <article key={filme.id}>
+                                <div className="container-filmes">
+                                    <strong>{filme.title}</strong>
+                                    <img src={`https://image.tmdb.org/t/p/original/${filme.poster_path}`} alt={filme.title} />
+                                    <Link to={`/filme/${filme.id}`}>Acessar</Link>
+                                </div>
+                            </article>
+                        </div>
                     )
                 })}
             </div>
